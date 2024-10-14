@@ -1,0 +1,40 @@
+.contener 
+{ 
+    padding: 5px; 
+    background-color: aliceblue; 
+    display: grid; 
+    grid-template-columns: 3fr 1fr 1fr; 
+    grid-template-areas:"header header header" 
+                        "nav nav nav" 
+                        "contenido ads ads" 
+                        "fooder fooder fooder";                   
+} 
+.contener .header 
+{ 
+    background-color: darkmagenta ; 
+    grid-area: header; 
+    text-decoration-color: blanchedalmond;
+    border-radius: 15px;
+} 
+.contener .nav 
+{ 
+    background-color: rgb(255, 255, 255); 
+    grid-area: nav; 
+} 
+.contener .ads 
+{ 
+    background-color: crimson; 
+    grid-area: ads;
+    border-radius: 15px; 
+} 
+.contener .contenido 
+{ 
+    background-color: darkmagenta; 
+    grid-area: contenido; 
+} 
+.contener .fooder 
+{ 
+    background-color: coral; 
+    grid-area: fooder;
+     
+}
